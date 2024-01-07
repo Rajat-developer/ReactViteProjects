@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Arial', sans-serif;
   display: flex;
   align-items: center;
@@ -32,6 +32,8 @@ body {
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column; 
 }
 
 .product-card:hover {
@@ -42,10 +44,10 @@ body {
   width: 100%;
   max-height: 150px;
   object-fit: cover;
-  border-radius: 8px;
 }
 
 .product-details {
+  flex-grow: 1; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,13 +65,13 @@ body {
 }
 
 .button-container {
+  margin-top: auto; 
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  margin-top: 10px;
-  gap :6px;
-
+  gap: 6px;
 }
+
 
 .button-container button {
   background-color: #4CAF50;
@@ -100,4 +102,4 @@ body {
 
 .cart-container li {
   margin-bottom: 10px;
-}
+} */
